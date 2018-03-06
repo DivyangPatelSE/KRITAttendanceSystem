@@ -6,10 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import clg.krit.KritAttendenceSystem.model.CourseActivities;
+import clg.krit.KritAttendenceSystem.model.ProgramsCourse;
 import clg.krit.KritAttendenceSystem.repository.CourseActivitiesRepository;
 
 @Service("courseActivitiesService")
-public class CourseActivitiesServiceImpl implements CourseActivitiesService{
+public class CourseActivitiesServiceImpl implements CourseActivitiesService {
 
 	@Autowired
 	CourseActivitiesRepository courseActivitiesRepository;
@@ -23,7 +24,10 @@ public class CourseActivitiesServiceImpl implements CourseActivitiesService{
 	public List<CourseActivities> getAllCourseActivities() {
 		return courseActivitiesRepository.findAll();
 	}
-	
-	
-	
+
+	@Override
+	public List<CourseActivities> findCourseActivitiesByProgramsCourse(ProgramsCourse programCourse) {
+		return courseActivitiesRepository.findCourseActivitiesByProgramsCourse(programCourse);
+	}
+
 }

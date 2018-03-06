@@ -14,14 +14,14 @@ import clg.krit.KritAttendenceSystem.service.CourseScheduleService;
 public class CourseScheduleController {
 
 	@Autowired
-	CourseScheduleService  courseScheduleService;
+	CourseScheduleService courseScheduleService;
 
-	@RequestMapping(value="/courseSchedules", method=RequestMethod.POST)
-	public List<CourseSchedule> getAllCourseSchedules(){
+	@RequestMapping(value = "/courseSchedules", method = RequestMethod.POST)
+	public List<CourseSchedule> getAllCourseSchedules() {
 		return courseScheduleService.getAllCourseSchedules();
 	}
-	
-	public CourseSchedule findCourseScheduleById(Integer scheduleId){
+
+	public CourseSchedule findCourseScheduleById(Integer scheduleId) {
 		return courseScheduleService.findCourseScheduleById(scheduleId);
 	}
 }

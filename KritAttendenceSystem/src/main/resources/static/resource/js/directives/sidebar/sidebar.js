@@ -6,7 +6,7 @@
  * @description # adminPosHeader
  */
 
-app.directive('sidebar', [ '$location', function() {
+app.directive('sidebar', [ '$location', '$sessionStorage' ,function() {
 	return {
 		templateUrl : 'resource/js/directives/sidebar/sidebar.html',
 		restrict : 'E',
@@ -32,6 +32,15 @@ app.directive('sidebar', [ '$location', function() {
 				else
 					$scope.multiCollapseVar = y;
 			};
+			
+			$scope.roleAuthentication = function(){
+				var role = sessionStorage.getItem('role');
+				if(role === 'Student'){
+					return false;
+				}else if(role === 'Instructor'){
+					return true;
+				}
+			}
 		}
 	}
 } ]);

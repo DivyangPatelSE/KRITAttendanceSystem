@@ -5,11 +5,12 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import clg.krit.KritAttendenceSystem.model.CourseSchedule;
 import clg.krit.KritAttendenceSystem.model.StudentAttendance;
 import clg.krit.KritAttendenceSystem.repository.StudentAttendanceRepository;
 
 @Service
-public class StudentAttendanceSerivceImpl implements StudentAttendanceService{
+public class StudentAttendanceSerivceImpl implements StudentAttendanceService {
 
 	@Autowired
 	StudentAttendanceRepository studentAttendanceRepository;
@@ -23,7 +24,10 @@ public class StudentAttendanceSerivceImpl implements StudentAttendanceService{
 	public StudentAttendance findAttendanceById(int studentAttendanceId) {
 		return studentAttendanceRepository.findOne(studentAttendanceId);
 	}
-	
-	
-	
+
+	@Override
+	public List<StudentAttendance> findStudentAttendanceByCourseSchedule(CourseSchedule courseSchedule) {
+		return studentAttendanceRepository.findStudentAttendanceByCourseSchedule(courseSchedule);
+	}
+
 }

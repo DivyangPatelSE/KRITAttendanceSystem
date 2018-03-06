@@ -59,6 +59,54 @@ app
 
 												
 
+																																																
+
+												
+
+																								
+
+												
+
+																																				
+
+												
+
+																								
+
+												
+
+																																																												
+
+												
+
+																								
+
+												
+
+																																				
+
+												
+
+																								
+
+												
+
+																																																
+
+												
+
+																								
+
+												
+
+																																				
+
+												
+
+																								
+
+												
+
 														$ocLazyLoad
 																.load({
 																	name : 'KRIT',
@@ -146,6 +194,54 @@ app
 										resolve : {
 											loadMyFile : function($ocLazyLoad) {
 												return
+
+												
+
+																								
+
+												
+
+																																				
+
+												
+
+																								
+
+												
+
+																																																
+
+												
+
+																								
+
+												
+
+																																				
+
+												
+
+																								
+
+												
+
+																																																												
+
+												
+
+																								
+
+												
+
+																																				
+
+												
+
+																								
+
+												
+
+																																																
 
 												
 
@@ -322,6 +418,27 @@ app
 										templateUrl : 'pages/view/student_attendance/studentAttendanceDetails.html',
 										absolute : true,
 										url : '/studentAttendanceDetails'
+									})
+							.state(
+									'dashboard.courseActivity',
+									{
+										templateUrl : 'pages/view/course_activity/selectCourseActivity.html',
+										absolute : true,
+										url : '/courseActivity'
+									})
+							.state(
+									'dashboard.addAttendance',
+									{
+										templateUrl : 'pages/view/grades/addGrade.html',
+										absolute : true,
+										url : '/addAttendance'
+									})
+							.state(
+									'dashboard.addGrade',
+									{
+										templateUrl : 'pages/view/student_attendance/addAttendance.html',
+										absolute : true,
+										url : '/addGrade'
 									})
 
 				} ]);
