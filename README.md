@@ -43,29 +43,6 @@ exam in course and credit for that activity), Attendance(to take attendance of s
 5. Add Attendance
 6. Add Grade
 
-## Screenshots
-
-Student Account
-
-Login Page
-![Login Page](https://github.com/DivyangPatelKRIT/KRITAttendenceSystem/blob/master/KritAttendenceSystem/src/main/resources/static/resource/img/Login.png)
-
-Dashboard
-![Login Page](https://github.com/DivyangPatelKRIT/KRITAttendenceSystem/blob/master/KritAttendenceSystem/src/main/resources/static/resource/img/Dashboard.png)
-
-Schedule
-![Login Page](https://github.com/DivyangPatelKRIT/KRITAttendenceSystem/blob/master/KritAttendenceSystem/src/main/resources/static/resource/img/CourseSchedule.png)
-
-Attendance
-![Attendance](https://github.com/DivyangPatelKRIT/KRITAttendenceSystem/blob/master/KritAttendenceSystem/src/main/resources/static/resource/img/Attendance.png)
-
-Attendance-2
-![Attendance-2](https://github.com/DivyangPatelKRIT/KRITAttendenceSystem/blob/master/KritAttendenceSystem/src/main/resources/static/resource/img/Attendance-2.png)
-
-Grade
-![Grade](https://github.com/DivyangPatelKRIT/KRITAttendenceSystem/blob/master/KritAttendenceSystem/src/main/resources/static/resource/img/Grade.png)
-
-
 ## Application Diagram
 
 https://www.gliffy.com/go/share/si9lk3jw8tqlau3dhyi9
