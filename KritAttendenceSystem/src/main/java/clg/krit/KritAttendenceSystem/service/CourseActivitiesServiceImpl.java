@@ -30,4 +30,19 @@ public class CourseActivitiesServiceImpl implements CourseActivitiesService {
 		return courseActivitiesRepository.findCourseActivitiesByProgramsCourse(programCourse);
 	}
 
+	@Override
+	public void updateCourseActivities(CourseActivities courseActivity) {
+		courseActivitiesRepository.save(courseActivity);
+	}
+
+	@Override
+	public void deleteCourseActivities(CourseActivities courseActivity) {
+		courseActivitiesRepository.delete(courseActivity);
+	}
+
+	@Override
+	public void insertCourseActivities(CourseActivities courseActivity) {
+		courseActivitiesRepository.save(courseActivity);
+	}
+
 }

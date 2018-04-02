@@ -27,4 +27,19 @@ public class CourseActivitiesController {
 	public List<CourseActivities> findCourseActivitiesByProgramsCourse(@RequestBody ProgramsCourse programCourse) {
 		return courseActivitiesService.findCourseActivitiesByProgramsCourse(programCourse);
 	}
+	
+	@RequestMapping(value = "/insertCourseActivity", method = RequestMethod.POST)
+	public void insertCourseActivity(@RequestBody CourseActivities courseActivity){
+		courseActivitiesService.insertCourseActivities(courseActivity);
+	}
+	
+	@RequestMapping(value = "/updateCourseActivity", method = RequestMethod.PUT)
+	public void updateCourseActivities(@RequestBody CourseActivities courseActivity){
+		courseActivitiesService.updateCourseActivities(courseActivity);
+	}
+	
+	@RequestMapping(value = "/deleteCourseActivity", method = RequestMethod.DELETE)
+	public void deleteCourseActivity(@RequestBody CourseActivities courseActivity){
+		courseActivitiesService.deleteCourseActivities(courseActivity);
+	}
 }

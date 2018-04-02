@@ -12,4 +12,10 @@ public interface CourseActivitiesService {
 	List<CourseActivities> getAllCourseActivities();
 
 	List<CourseActivities> findCourseActivitiesByProgramsCourse(ProgramsCourse programCourse);
+
+	void updateCourseActivities(CourseActivities courseActivity);
+
+	void deleteCourseActivities(CourseActivities courseActivity);
+
+	void insertCourseActivities(CourseActivities courseActivity);
 }
