@@ -1,4 +1,4 @@
-# KRITAttendenceSystem
+# KRITAttendanceSystem
 
 KRITAttendanceSystem is an idea to take attendance on system and make it instantly available for student to check it. But, Adding to
 this functionality, I have added Grade and Schedule part in system to add grade and schedule by instructor and can be 
