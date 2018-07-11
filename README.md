@@ -49,5 +49,26 @@ https://www.gliffy.com/go/share/si9lk3jw8tqlau3dhyi9
 
 ## Screenshots
 
-* Login
+* Student
+Login
+
 ![image](https://github.com/DivyangPatelSE/KRITAttendanceSystem/blob/local_change/KritAttendanceSystem/src/main/resources/static/resource/img/Login.png)
+
+Dashboard
+
+![image](https://github.com/DivyangPatelSE/KRITAttendanceSystem/blob/local_change/KritAttendanceSystem/src/main/resources/static/resource/img/Dashboard.png)
+
+Course Schedule
+
+![image](https://github.com/DivyangPatelSE/KRITAttendanceSystem/blob/local_change/KritAttendanceSystem/src/main/resources/static/resource/img/CourseSchedule.png)
+
+Grade
+
+![image](https://github.com/DivyangPatelSE/KRITAttendanceSystem/blob/local_change/KritAttendanceSystem/src/main/resources/static/resource/img/Grade.png)
+
+Attendance
+
+![image](https://github.com/DivyangPatelSE/KRITAttendanceSystem/blob/local_change/KritAttendanceSystem/src/main/resources/static/resource/img/Attendance.png)
+
+
+![image](https://github.com/DivyangPatelSE/KRITAttendanceSystem/blob/local_change/KritAttendanceSystem/src/main/resources/static/resource/img/Attendance-2.png)
