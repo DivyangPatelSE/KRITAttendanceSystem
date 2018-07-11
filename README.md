@@ -46,3 +46,8 @@ exam in course and credit for that activity), Attendance(to take attendance of s
 ## Application Diagram
 
 https://www.gliffy.com/go/share/si9lk3jw8tqlau3dhyi9
+
+## Screenshots
+
+* Login
+https://github.com/DivyangPatelSE/KRITAttendanceSystem/tree/local_change/KritAttendanceSystem/src/main/resources/static/resource/img/Login.png
