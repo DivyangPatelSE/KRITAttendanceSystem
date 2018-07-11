@@ -50,4 +50,4 @@ https://www.gliffy.com/go/share/si9lk3jw8tqlau3dhyi9
 ## Screenshots
 
 * Login
-![Screenshot](KRITAttendanceSystem/KritAttendanceSystem/src/main/resources/static/resource/img/Login.png)
+![image](https://github.com/DivyangPatelSE/KRITAttendanceSystem/blob/local_change/KritAttendanceSystem/src/main/resources/static/resource/img/Login.png)
